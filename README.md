@@ -10,6 +10,10 @@ Producto AI propone un enfoque práctico para construir productos digitales con 
 
 El método se organiza en siete pasos: planificar, dividir tareas, implementar, probar, revisar y mejorar, guardar versiones, y desplegar e iterar.
 
+## Más información
+
+Para conocer las capacitaciones de Albert o inscribirse a futuras ediciones (modalidad en vivo y asincrónica), el contacto es: [albertcapacitaciondigital@gmail.com](mailto:albertcapacitaciondigital@gmail.com)
+
 ## Estado del repositorio
 
 En construcción. Se actualiza a medida que avanzan las sesiones.
