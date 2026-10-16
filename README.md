@@ -1,6 +1,6 @@
 # Producto AI · Portfolio de ejercicios
 
-Este repositorio reúne resoluciones de los laboratorios prácticos de la capacitación **Producto AI**, dictada por Albert en su edición de julio de 2026. Los enunciados pertenecen a su [repositorio oficial](https://github.com/albertcapacitacion/ProductAI).
+Este repositorio reúne resoluciones de los laboratorios prácticos de la capacitación **Producto AI**, dictada por Albert en su edición de julio de 2026. Los enunciados pertenecen a su [autoría](https://github.com/albertcapacitacion).
 
 ## Proyecto: MediTraza · MVP de trazabilidad clínica
 
