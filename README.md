@@ -17,6 +17,8 @@ npm run dev
 
 Cada cambio en `main` construye y publica automáticamente la demo mediante GitHub Actions. En el repositorio, abrir **Settings → Pages** y seleccionar **GitHub Actions** como fuente de publicación.
 
+La publicación se genera desde el flujo `Publicar demo en GitHub Pages`, que compila el proyecto antes de enviarlo a Pages.
+
 La demo quedará disponible en `https://marucepeda.github.io/Agarra-La-Pala-II/`.
 
 > La publicación contiene sólo datos ficticios. No cargar datos clínicos reales ni documentos sensibles en GitHub Pages.
