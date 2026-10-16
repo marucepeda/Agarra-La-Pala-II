@@ -7,8 +7,8 @@
 | 0 | discovery, decisiones pendientes, modelo, diseño de permisos, infraestructura y CI. |
 | 1 | identidad, roles, maestros, producto/unidad, recepción y ledger inmutable. |
 | 2 | ubicaciones, consignación, remitos, búsqueda y trazabilidad de unidad. |
-| 3 | casos IOMA, reserva/entrega/consumo, checklist y documentos privados. |
-| 4 | presentación IOMA, snapshots, factura interna, cobro parcial y tablero. |
+| 3 | casos de convenio, reserva/entrega/consumo, checklist y documentos privados. |
+| 4 | presentación por pagador, snapshots, factura interna, cobro parcial y tablero. |
 | 5 | migración piloto, pruebas E2E, seguridad, capacitación y salida controlada. |
 
 ## Backlog MVP
@@ -16,8 +16,8 @@
 | Prioridad | Historia | Criterios de aceptación |
 |---|---|---|
 | P0 | Como Stock recibo una unidad identificada. | Exige producto, lote/serie según producto y vencimiento; crea ledger. |
-| P0 | Como Logística consigno una unidad con remito. | Origen y destino válidos; remito contiene unidad; propiedad permanece Optimizar. |
-| P0 | Como Gestión creo un caso IOMA y asigno material. | Pagador, institución, trámite y material requeridos; no hay doble asignación activa. |
+| P0 | Como Logística consigno una unidad con remito. | Origen y destino válidos; remito contiene unidad; propiedad permanece MediTraza. |
+| P0 | Como Gestión creo un caso de convenio y asigno material. | Pagador, institución, trámite y material requeridos; no hay doble asignación activa. |
 | P0 | Como Gestión consumo una serie. | Bloquea doble consumo, vencimiento y ubicación incorrecta. |
 | P0 | Como Gestión valido evidencias. | Presentación bloqueada con cualquier requisito pendiente/rechazado. |
 | P0 | Como Finanzas presento y facturo. | Un caso no integra dos tandas activas; snapshot preservado al presentar. |
@@ -31,7 +31,7 @@
 
 | Fuente | Destino | Tratamiento |
 |---|---|---|
-| Stock Biosud / STOCK OPTIMIZAR | productos, unidades, movimientos | separar lote y serie, normalizar fechas, conservar fila/origen. |
+| Planillas históricas de stock | productos, unidades, movimientos | separar lote y serie, normalizar fechas, conservar fila/origen. |
 | Cuaderno de Entradas | casos, instituciones, pagadores, facturas | deduplicar por CUIT + nombre, marcar campos ambiguos para revisión. |
 | Remito de Consigna | remitos y destinos | extraer documentos y validar institución/CUIT. |
 | Pacientes Roche | pacientes | migración restringida, hash de fuente, minimización de PII. |

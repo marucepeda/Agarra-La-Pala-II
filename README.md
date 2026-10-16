@@ -2,7 +2,7 @@
 
 Este repositorio reúne resoluciones de los laboratorios prácticos de la capacitación **Producto AI**, dictada por Albert en su edición de julio de 2026. Los enunciados pertenecen a su [repositorio oficial](https://github.com/albertcapacitacion/ProductAI).
 
-## Proyecto: Optimizar · MVP de trazabilidad clínica
+## Proyecto: MediTraza · MVP de trazabilidad clínica
 
 MVP navegable para el circuito de Convenios/Intervencionismo: recepción, consignación, caso, entrega, consumo, documentación, presentación, factura y cobro parcial.
 
@@ -25,7 +25,7 @@ La demo quedará disponible en `https://marucepeda.github.io/Agarra-La-Pala-II/`
 
 ### Recorrido de demostración
 
-1. Abrir **Casos** y revisar `IOMA-2026-00421`.
+1. Abrir **Casos** y revisar `SALUD-2026-00421`.
 2. Registrar el consumo de `UT-000184`; un segundo intento queda bloqueado.
 3. Cargar los dos documentos pendientes.
 4. Ir a **Presentaciones** e incorporar el caso apto.

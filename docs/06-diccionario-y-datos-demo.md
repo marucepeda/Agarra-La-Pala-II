@@ -14,7 +14,7 @@ Todos los identificadores son UUID salvo números comerciales visibles. `created
 | `payers` | `id`, `name`, `cuit` | condiciones de pago, reglas de presentación en JSON versionado. |
 | `patients` | `id`, `internal_code`, `full_name`, `status` | afiliado, pagador, contacto mínimo cifrado; acceso restringido. |
 | `doctors` | `id`, `full_name` | matrícula, instituciones mediante tabla puente `doctor_institutions`. |
-| `management_types` | `id`, `code`, `name` | `requires_patient`; valores IOMA, LICITACION, DIABETES, DIRECTA. |
+| `management_types` | `id`, `code`, `name` | `requires_patient`; valores CONVENIO, LICITACION, DIABETES, DIRECTA. |
 | `traceable_units` | `id`, `product_id`, `lot` si aplica, `serial` si aplica, `expiry_date`, `cost`, `currency` | despacho; lote/serie requeridos según producto. |
 | `inventory_movements` | `id`, `unit_id`, `type`, `occurred_at`, `actor_id` | origen, destino, motivo, documento, `reversal_of_id`; inmutable. |
 | `delivery_notes` | `id`, `number`, `type`, `issued_at`, `origin_location_id`, `destination_location_id` | firmado, archivo, estado. |
@@ -40,8 +40,8 @@ Todos los identificadores son UUID salvo números comerciales visibles. `created
 | Producto | `STENT-DES-3018` | Stent coronario liberador de fármaco 3.0 × 18 mm. |
 | Unidad | `UT-000184` | Lote `L240915`, serie `SN-XI-000184`, vence 30/09/2028. |
 | Institución | `INS-001` | Hospital San Martín, banco de stock habilitado. |
-| Caso | `IOMA-2026-00421` | Paciente enmascarado `M. R.`, trámite `TR-2026-8841`. |
-| Presentación | `OCT-2026` | IOMA, corte 31/10/2026. |
+| Caso | `SALUD-2026-00421` | Paciente enmascarado `M. R.`, trámite `TR-2026-8841`. |
+| Presentación | `OCT-2026` | Salud Provincial, corte 31/10/2026. |
 | Factura | `FC-A 0003-0000142` | $1.850.000; permite imputaciones parciales de $500.000. |
 
 Los nombres, documentos, CUIT y afiliaciones del dataset son ficticios o enmascarados; no se incorporó información personal desde las planillas existentes.

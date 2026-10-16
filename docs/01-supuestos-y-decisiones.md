@@ -12,7 +12,7 @@
 
 | Decisión | Alternativas | Impacto |
 |---|---|---|
-| Ventana IOMA | calendario mensual fijo / configurada por pagador | Define corte, elegibilidad y reapertura. |
+| Ventana de presentación | calendario mensual fijo / configurada por pagador | Define corte, elegibilidad y reapertura. |
 | Evidencia de consumo | sticker + parte / sticker solamente por producto | Afecta la matriz documental y riesgo de rechazo. |
 | Granularidad por lote | una unidad por pieza / balance por lote | La primera ofrece mayor trazabilidad; la segunda reduce volumen. |
 | Correcciones de inventario | doble movimiento / movimiento de ajuste aprobado | La primera es más estricta; ambas requieren motivo y auditoría. |
