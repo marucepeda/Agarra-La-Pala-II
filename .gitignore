@@ -1,0 +1,14 @@
+node_modules/
+dist/
+vite-server.log
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+
+# Material operativo local: no se publica junto con la demo.
+*.xlsx
+*.xls
+*.xlsm
+Auditoria_ERP_Trazabilidad.md
+Relevamiento Funcional Inicial.docx
+Stock Biosud*.csv
