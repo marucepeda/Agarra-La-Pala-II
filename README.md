@@ -1,17 +1,28 @@
-# Producto AI · Portfolio de ejercicios
+# MediTraza
 
-Este repositorio reúne resoluciones de los laboratorios prácticos de la capacitación **Producto AI**, dictada por Albert en su edición de julio de 2026. Los enunciados pertenecen a su [autoría](https://github.com/albertcapacitacion).
+Sistema de gestión operativa y trazabilidad de insumos médicos para distribuidores que abastecen clínicas y hospitales.
 
-## Proyecto: MediTraza · MVP de trazabilidad clínica
+Permite seguir los productos desde su recepción y distribución hasta su asignación y consumo en procedimientos médicos, conectando la trazabilidad del stock con la gestión documental, la facturación y las cobranzas.
 
-MVP navegable para el circuito de Convenios/Intervencionismo: recepción, consignación, caso, entrega, consumo, documentación, presentación, factura y cobro parcial.
+## Alcance
 
-## La capacitación
+Prototipo navegable que simula:
 
-Producto AI propone un enfoque práctico para construir productos digitales con la asistencia de inteligencia artificial, sin requerir conocimientos previos de programación. A lo largo de las sesiones se utilizan ChatGPT, Codex, Claude, Google AI Studio y GitHub, cada una en la etapa del proyecto donde resulta más útil.
+- Stock, lotes, series y vencimientos.
+- Consignaciones, remitos y entregas.
+- Gestión de casos y materiales utilizados.
+- Control documental y presentaciones.
+- Facturación y cobranzas parciales.
+- Alertas y auditoría de movimientos.
 
-El método se organiza en siete pasos: planificar, dividir tareas, implementar, probar, revisar y mejorar, guardar versiones, y desplegar e iterar.
+## Estado
 
-## Más información
+Prototipo funcional con datos ficticios. No cuenta con backend, persistencia de datos, autenticación ni integraciones reales.
 
-Para conocer las capacitaciones de Albert o inscribirse a futuras ediciones (modalidad en vivo y asincrónica), el contacto es [albertcapacitaciondigital@gmail.com](mailto:albertcapacitaciondigital@gmail.com).
+## Tecnologías
+
+React · TypeScript · Vite · Vitest
+
+## Contexto
+
+Proyecto desarrollado como ejercicio práctico de la capacitación **Producto AI**, edición julio de 2026, dictada por [Albert](https://github.com/albertcapacitacion).
